@@ -1,0 +1,77 @@
+// $XKeyboardConfig$
+
+//
+// $XdotOrg: xc/programs/xkbcomp/symbols/us,v 1.1.4.3 2004/03/05 13:41:33 eich Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/us,v 1.6 2003/10/31 14:32:05 pascal Exp $
+
+default
+partial alphanumeric_keys
+xkb_symbols "dvorak_alt2" {
+
+    include "us(basic)"
+
+    name[Group1]= "USA - Dvorak - Alt2";
+
+    // Alphanumeric section
+
+    key <TLDE> { [       grave,	asciitilde, agrave, Agrave	] };
+
+    key <AE01> { [	    1,	exclam, adiaeresis, Adiaeresis 		]	};
+    key <AE02> { [	    2,	at, odiaeresis, Odiaeresis		]	};
+    key <AE03> { [	    3,	numbersign, ediaeresis, Ediaeresis	]	};
+    key <AE04> { [	    4,	dollar, udiaeresis, Udiaeresis		]	};
+    key <AE05> { [	    5,	percent, idiaeresis, Idiaeresis		]	};
+    key <AE06> { [	    6,	asciicircum, dead_circumflex, dead_circumflex ]	};
+    key <AE07> { [	    7,	ampersand	]	};
+    key <AE08> { [	    8,	asterisk, multiply, multiply	]	};
+    key <AE09> { [	    9,	parenleft,  dead_grave]	};
+    key <AE10> { [	    0,	parenright, U200A	]	};
+    key <AE11> { [ bracketleft,	braceleft, guillemotleft	]	};
+    key <AE12> { [ bracketright, braceright, guillemotright, dead_tilde] };
+
+    key <AD01> { [  apostrophe,	quotedbl, atilde, Atilde	] };
+    key <AD02> { [	comma,	less, otilde, Otilde	] };
+    key <AD03> { [      period,	greater, egrave, Egrave	] };
+    key <AD04> { [	    p,	P, ugrave, Ugrave		]	};
+    key <AD05> { [	    y,	Y, idotless		]	};
+    key <AD06> { [	    f,	F		]	};
+    key <AD07> { [	    g,	G		]	};
+    key <AD08> { [	    c,	C, ccedilla, Ccedilla		]	};
+    key <AD09> { [	    r,	R		]	};
+    key <AD10> { [	    l,	L, Greek_lambda, Greek_LAMBDA	]	};
+    key <AD11> { [	slash,	question, questiondown	]	};
+    key <AD12> { [	equal,	plus, notequal, plusminus		]	};
+
+    key <AC01> { [	    a,	A, aacute, Aacute 		]	};
+    key <AC02> { [	    o,	O, oacute, Oacute		]	};
+    key <AC03> { [	    e,	E, eacute, Eacute		]	};
+    key <AC04> { [	    u,	U, uacute, Uacute		]	};
+    key <AC05> { [	    i,	I, iacute, Iacute		]	};
+    key <AC06> { [	    d,	D		]	};
+    key <AC07> { [	    h,	H		]	};
+    key <AC08> { [	    t,	T		]	};
+    key <AC09> { [	    n,	N, ntilde, Ntilde		]	};
+    key <AC10> { [	    s,	S, ssharp, ssharp		]	};
+    key <AC11> { [	minus,	underscore, U2014, U2013	]	};
+
+    key <AB01> { [   semicolon,	colon, acircumflex, Acircumflex ] };
+    key <AB02> { [	    q,	Q, ocircumflex, Ocircumflex		]	};
+    key <AB03> { [	    j,	J, ecircumflex, Ecircumflex		]	};
+    key <AB04> { [	    k,	K, ucircumflex, Ucircumflex		]	};
+    key <AB05> { [	    x,	X, icircumflex, Icircumflex		]	};
+    key <AB06> { [	    b,	B		]	};
+    key <AB07> { [	    m,	M		]	};
+    key <AB08> { [	    w,	W, U2190		]	};
+    key <AB09> { [	    v,	V, U2192		]	};
+    key <AB10> { [	    z,	Z		]	};
+
+    key <BKSL> { [  backslash,  bar, exclamdown            ]       };
+
+//    key   <UP> {	[  Up, Up,, U2191			]	};
+//    key <LEFT> {	[  Left, Left, U2190			]	};
+//    key <DOWN> {	[  Down, Down, U2193			]	};
+//    key <RGHT> {	[  Right, Right, U2192		]	};
+
+    include "level3(ralt_switch)"
+};
+
