@@ -9,15 +9,17 @@ See the symbols/dvorak_alt2 file for a list.
 Using
 -----
 
+Easy local installation:
+
 ```bash
 mkdir ~/.xkb
 cp -a symbols keymap ~/.xkb
-xkbcomp -I$HOME/.xkb $HOME/.keymap.xkb $DISPLAY
+xkbcomp -I$HOME/.xkb $HOME/keymap/dvorak_alt2 $DISPLAY
 ```
 
 Credits
 -------
 
-(c) 2014 Hisham Muhammad - http://hisham.hm/
+(c) 2014-2017 Hisham Muhammad - http://hisham.hm/
 
 
